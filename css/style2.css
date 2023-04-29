@@ -1,0 +1,50 @@
+/* Change Password Page Responsive */
+
+.main1 {
+    background-color: steelblue;
+}
+
+@media(max-width: 1575px) {
+    .col-3 button {
+        width: 100px;
+        margin: 0px 0px;
+    }
+}
+
+@media(max-width: 959px) {
+    .col-5 .card {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 800px) {
+    .col-5 .card {
+        margin-right: 200px;
+    }
+}
+
+@media(max-width: 1245px) {
+    .row .col-10 {
+        width: 90%;
+    }
+}
+
+@media(max-width: 375px) {
+    .col-3 button {
+        margin-right: 200px;
+    }
+}
+
+@media(max-width:950px) {
+    .card {
+        margin-right: 200px;
+    }
+}
+
+@media(max-width: 500px) {
+    .container-fluid .col-5 {
+        margin-right: 150px;
+    }
+}

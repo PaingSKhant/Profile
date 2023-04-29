@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Profile</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body class="main">
+    <div class="main row  m-4">
+        <div class="col-3 text-center">
+            <a href="">
+                <button class="btn bg-dark text-white col-4 "><i class="fa-solid fa-arrow-left"></i> Back</button>
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="col-5 ">
+            <div class="card shadow-sm">
+                <div class="card-header">
+                    <h4 class="head">Profile</h4>
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3 class="text-center">Student Information</h3>
+                    </div>
+                    <form action="" method="post">
+                        <div class="row">
+                            <div class=" col-10 offset-1 ">
+                                <div class="form-group mt-2">
+                                    <label class="control-label mb-1 fw-medium" for="">Name</label>
+                                    <input class="form-control  fw-normal shadow-sm" name="name" type="text" placeholder="Enter User Name...">
+                                </div>
+
+                                <div class="form-group mt-2">
+                                    <label class="control-label mb-1 fw-medium" for="">Student Id</label>
+                                    <input class="form-control  fw-normal shadow-sm" name="studentId" type="text" placeholder="Enter Student Id..." required>
+                                </div>
+
+                                <div class="form-group mt-2">
+                                    <label class="control-label mb-1  fw-medium" for="">Major</label>
+                                    <input class="form-control  fw-normal shadow-sm" name="email" type="text" placeholder="Enter Major..." required>
+                                </div>
+
+                                <div class="form-group mt-2">
+                                    <label class="control-label mb-1  fw-medium" for="">Email</label>
+                                    <input class="form-control  fw-normal shadow-sm" name="email" type="text" placeholder="Enter Email..." required>
+                                </div>
+
+                                <div class="form-group mt-2">
+                                    <label class="control-label mb-1 fw-medium" for="">Phone</label>
+                                    <input class="form-control  fw-normal shadow-sm" name="phone" type="number" placeholder="Enter Phone Number..." required>
+                                </div>
+
+                                <div class="form-group mt-2">
+                                    <label class="control-label mb-1 fw-medium" for="">Date of Birth</label>
+                                    <input class="form-control  fw-normal shadow-sm" name="name" type="date" placeholder="Enter Birthday..." required>
+                                </div>
+
+                                <div class="form-group mt-2">
+                                    <label class="control-label mb-1 fw-medium" for="">Gender</label>
+                                    <select name="gender" id="" class="form-select shadow-sm  fw-normal">
+                                            <option value="">Choose Gender...</option>
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                            <option value="others">Others</option>
+                                        </select>
+                                </div>
+                                <a href="">
+                                    <button class="btn bg-dark text-white col-12 my-4" type="submit">
+                                        <i class="fa-solid fa-arrow-up-from-bracket me-2"></i> <span class=""> Update Your Profile</span>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</html>

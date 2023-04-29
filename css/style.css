@@ -1,0 +1,115 @@
+/* Student Information Responsive  */
+
+.main {
+    background-color: steelblue;
+}
+
+@media(max-width: 1080px) {
+    .col-3 button {
+        padding: 0px 10px;
+        margin: 0px 20px;
+    }
+}
+
+@media(max-width: 1017px) {
+    .col-3 button {
+        padding: 0px 5px;
+        margin: 0px 15px;
+    }
+}
+
+@media(max-width: 900px) {
+    .col-3 button {
+        padding: 0px 3px;
+        margin: 0px 10px;
+    }
+}
+
+@media(max-width: 850px) {
+    .col-3 button {
+        padding: 0px 2px;
+        margin: 0px 5px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 785px) {
+    .col-3 button {
+        padding: 0px 0px;
+        margin: 0px 50px;
+    }
+}
+
+@media(max-width: 760px) {
+    .col-3 button {
+        padding: 0px 0px;
+        margin: 0px 60px;
+    }
+}
+
+@media(max-width: 740px) {
+    .col-3 button {
+        padding: 0px 0px;
+        margin: 0px 100px;
+    }
+    .col-5 .card {
+        width: 300px;
+    }
+}
+
+@media(max-width: 750px) {
+    .col-3 button {
+        padding: 0px;
+        margin: 0px 10px;
+    }
+}
+
+@media(max-width: 738px) {
+    .col-3 button {
+        padding: 0px 5px;
+        margin-left: 50px;
+        /* display: flex; */
+        width: 90px;
+    }
+    .col-3 i {
+        padding-right: 5px;
+        padding-top: 3px;
+    }
+}
+
+@media(max-width: 560px) {
+    .col-5 .card {
+        width: 300px;
+        margin-right: 100px;
+    }
+}
+
+@media(max-width: 500px) {
+    .col-5 {
+        margin-right: 100px;
+    }
+}
+
+@media(max-width: 410px) {
+    .col-5 {
+        margin-right: 160px;
+    }
+}
+
+@media(max-width: 410px) {
+    .col-3 button {
+        margin-left: 210px;
+    }
+}
+
+@media(max-width: 360px) {
+    .col-3 button {
+        margin-left: 190px;
+    }
+}
+
+@media(max-width: 310px) {
+    .col-3 button {
+        margin-left: 180px;
+    }
+}
